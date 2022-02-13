@@ -33,14 +33,14 @@ your\folder\with\main\file> python main.py
 Данная работа описана в ноутбуке **cyclegan_demo.ipynb**
 
 *Результаты cyclegan_demo Моне в Фото*:
-![Результаты cyclegan_demo1](./images/cyclegan_ex1.png)
+![Результаты cyclegan_demo1](./images/cyclegan_ex1.jpg)
 
-![Результаты cyclegan_demo2](./images/cyclegan_ex2.png)
+![Результаты cyclegan_demo2](./images/cyclegan_ex2.jpg)
 
 *И наоборот*:
-![Результаты cyclegan_demo3](./images/cyclegan_ex3.png)
+![Результаты cyclegan_demo3](./images/cyclegan_ex3.jpg)
 
-![Результаты cyclegan_demo4](./images/cyclegan_ex4.png)
+![Результаты cyclegan_demo4](./images/cyclegan_ex4.jpg)
 
 **Основная поставленная задача** - преобразование реального лица в соответствующие ему лицо в стиле японской анимации с сохранением первоначальных черт.
 Основное обучение и архитектура сететй описана в файле **AniCycleGAN.ipynb**
