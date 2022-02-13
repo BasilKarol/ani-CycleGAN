@@ -1,0 +1,1 @@
+pyinstaller -i"D:\Python_Work\DLSchool\AniFace\AniGAN_app\Cyfra.ico" --add-data="D:\Python_Work\DLSchool\AniFace\AniGAN_app\*;." --noconsole Sample.py
