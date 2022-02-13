@@ -7,7 +7,7 @@ import torch.nn as nn
 import numpy as np
 import PIL
 import torchvision.transforms as tt
-Path = 'AnimeGAN+_70_params'
+Path = 'AnimeGAN+_70_params.pt'
 
 def get_generated(x, g, f=tt.ToPILImage(), origin_size=[256, 256] ):
     generated = g(transforms(x)[np.newaxis, :])
