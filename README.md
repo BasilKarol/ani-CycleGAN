@@ -9,7 +9,9 @@
 
 ### Project on generating and styling anime images using CycleGAN architecture
 
-![cyclegan_demo1 Results](./images/ACGAN_preview_scaled.jpg)
+<p align="center">
+	<img src="./images/ACGAN_preview_scaled.jpg" />
+</p>
 
 ## Table of contents:
 * [Technical Information](#technical-info)
