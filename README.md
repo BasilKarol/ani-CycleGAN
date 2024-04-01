@@ -24,8 +24,8 @@
 ## Technical Information
 
 Tools used while creating the project:
-* python 3.10
-* jupyter notebook (kaggle GPU)
+* Python 3.10
+* Jupyter notebook (kaggle GPU)
 
 You can find all about basic libraries and modules used in the **REQUIREMENTS.txt** file.
 
@@ -61,11 +61,11 @@ The basic training process and architecture of the network is described in the *
 The network was originally trained on the Flickr Faces dataset (https://www.kaggle.com/xhlulu/flickrfaceshq-dataset-nvidia-resized-256px). 
 However, due to the variety of people's gender/age, as well as differences in their scale, the network was NOT able to correctly carry the style. 
 
-After some searching, the selfie2anime dataset (https://www.kaggle.com/arnaud58/selfie2anime) was found to be perfect for the task.
+After some researching, the selfie2anime dataset (https://www.kaggle.com/arnaud58/selfie2anime) was found to be perfect for the task.
 Training was done using the kaggle platform's dedicated Nvidia Tesla K80 graphics card. Full training time took around **~30 hours**.
 
 In the final version in 80% of cases the network successfully transfers the style, as well as in good lighting and photo rotation correctly detects the face and modifies it.
-However, sometimes you can find non-critical artifacts in generated faces - white (sometimes black) 'spots'. In Monet2Photo work this issue practically disappeared by the end of network training.
+However, sometimes you can find non-critical artifacts in generated faces - white (sometimes black) 'spots'. In Monet2Photo this issue practically disappeared by the end of network training.
 
 ### *AniCycleGAN Results*:
 ![AniCycleGAN Results 1_1](./images/anigan_ex1.png)
