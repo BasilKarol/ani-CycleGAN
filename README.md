@@ -67,7 +67,7 @@ Training was done using the kaggle platform's dedicated Nvidia Tesla K80 graphic
 In the final version in 80% of cases the network successfully transfers the style, as well as in good lighting and photo rotation correctly detects the face and modifies it.
 However, sometimes you can find non-critical artifacts in generated faces - white (sometimes black) 'spots'. In Monet2Photo work this issue practically disappeared by the end of network training.
 
-*AniCycleGAN Results*:
+### *AniCycleGAN Results*:
 ![AniCycleGAN Results 1_1](./images/anigan_ex1.png)
 
 ![AniCycleGAN Results 1_2](./images/anigan_ex2.png)
