@@ -46,15 +46,14 @@ The whole work is based on "***Unpaired Image-to-Image Translation using Cycle-C
 The implementation of the network started with the Monet2Photo task - to teach the network to translate photos into the style of Monet's paintings / make Monet's paintings photorealistic. 
 Work process is described in the **cyclegan_demo.ipynb** notebook.
 
-*cyclegan_demo Monet Results in Photo:*:
+### *Monet to Photo results (cyclegan_demo)*:
 ![cyclegan_demo1 Results](./images/cyclegan_ex1.jpg)
+<p align="center">
+	<img src="./images/cyclegan_ex2_new.jpg" />
+</p>
 
-![cyclegan_demo2 Results](./images/cyclegan_ex2.jpg)
-
-*And vice versa*:
-![cyclegan_demo3 Results](./images/cyclegan_ex3.jpg)
-
-![cyclegan_demo4 Results](./images/cyclegan_ex4.jpg)
+### *And vice versa*:
+![cyclegan_demo3 Results](./images/cyclegan_ex3_new.jpg)
 
 **The main task of A_CGAN** is to transform a real face into corresponding Japanese animation style face while preserving the original features.
 The basic training process and architecture of the network is described in the **AniCycleGAN.ipynb** file.
@@ -73,10 +72,10 @@ However, sometimes you can find non-critical artifacts in generated faces - whit
 
 ![AniCycleGAN Results 1_2](./images/anigan_ex2.png)
 
-*With input image having small size faces, there is an usual style transfer, which can be used as well*:
+### *With input image having small size faces, there is an usual style transfer, which can be used as well*:
 ![AniCycleGAN Results 1_3](./images/anigan_ex0.png)
 
-*Ani_CycleGAN network can also be used as a SuperResolution transformer for faces, that are Already anime*:
+### *Ani_CycleGAN network can also be used as a SuperResolution transformer for faces, that are Already anime*:
 ![AniCycleGAN Results 2_1](./images/anigan_ex3.png)
 
 ![AniCycleGAN Results 2_2](./images/anigan_ex4.png)
